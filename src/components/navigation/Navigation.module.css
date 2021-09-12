@@ -1,0 +1,43 @@
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navList {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  color: #fff;
+  background-color: #3f51b5;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.navLink:hover {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  background-color: #303f9f;
+}
+
+.navLinkActive {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-underline-offset: 3px;
+}
+
+.button_logout {
+  composes: navLink;
+  border-color: transparent;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.greeting {
+  margin-left: 15px;
+}
